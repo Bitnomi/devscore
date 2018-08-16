@@ -61,8 +61,8 @@ html {
         }
 
         .primary-nav a:hover {
-            color: black;
-            background: #f8d800;
+            color: white;
+            background: #396afc;
         }
 
 /* Responsive-nav.js */
