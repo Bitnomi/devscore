@@ -14,7 +14,7 @@ html {
 }
 
 .f-right {
-  text-align: right;
+  float: right;
 }
 
 .tabs {
