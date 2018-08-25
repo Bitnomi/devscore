@@ -22,7 +22,7 @@ html {
   float: right;
 }
 
-.tabsi {
+.tabs {
     margin:  0;
     padding: 0;
     list-style: none;
@@ -31,29 +31,29 @@ html {
     width: 100%;
 }
 
-    .tabs__itemi {
+    .tabs__item {
         width: 100%;
         float: left;
     }
 
     @media screen and (min-width: 40em) {
-        .tabs__itemi {
+        .tabs__item {
           display: table-cell;
           float: none;
           width: auto;
         }
     }
 
-        .tabs__linki {
+        .tabs__link {
             display: block;
         }
-.primary-navi {
+.primary-nav {
     text-align: center;
     border-radius: 0;
     overflow: hidden;
 }
 
-        .primary-navi a {
+        .primary-nav a {
             padding: .75em 1em;
             color: white;
             background: rgba(255, 255, 255, 0.1);
@@ -65,12 +65,12 @@ html {
             font-size: 1.75em;
         }
 
-        .primary-navi a:hover {
+        .primary-nav a:hover {
             color: white;
             background: #396afc;
         }
 
-.js .nav-collapsei {
+.js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
   position: absolute;
@@ -98,10 +98,10 @@ html {
 }
 
 @media screen and (min-width: 40em) {
-  .js .nav-collapsei {
+  .js .nav-collapse {
     position: relative;
   }
-  .js .nav-collapsei.closed {
+  .js .nav-collapse.closed {
     max-height: none;
   }
   .nav-toggle {
@@ -109,7 +109,7 @@ html {
   }
 }
 
-.nav-collapsei {
+.nav-collapse {
   list-style: none;
   width: 100%;
   float: left;
