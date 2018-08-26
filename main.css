@@ -180,7 +180,7 @@ img{
   height: auto;
 }
 img{
-  height: 50%;
+  height: 50vh;
 }
 .sr-only{
 	position: absolute;
