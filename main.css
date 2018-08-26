@@ -180,7 +180,6 @@ img{
   height: auto;
 }
 img{
-	min-width: 100%;
 }
 .sr-only{
 	position: absolute;
