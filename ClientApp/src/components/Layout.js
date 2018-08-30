@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Col, Grid, Row } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import { NavMenu } from './NavMenu';
 import 'antd/dist/antd.css';
 import { Carousel } from 'antd';
 import './carousel.css'
 import { Table, Divider, Tag } from 'antd';
 import { Layout, Menu, Breadcrumb } from 'antd';
+import { Card } from 'antd';
 
 const { Header, Content, Footer } = Layout;
 
@@ -84,6 +85,21 @@ export class MyComp extends Component {
             </Carousel>
             <Table columns={columns} dataSource={data} size="middle" footer = {() => 'Footer'}/> 
             {this.props.children}
+            
+            <div style={{ background: '#ECECEC', padding: '30px' }}>
+              <Row gutter={16}>
+                <Col span={8}>
+                  <Card title="Safe Reliable" bordered={false}>It's a digital assets trueteeship platform. 0 transfer fees from Huobi OTC to Huoibi GLobal Exchange. And We ensure that their wallet before posting any advertisement</Card>
+                </Col>
+                <Col span={8}>
+                  <Card title="0 Transaction Free" bordered={false}>0 transaction fee for users to trade local currency to BTC/USD/ETH</Card>
+                </Col>
+                <Col span={8}>
+                  <Card title="24 hours Customer Support" bordered={false}>24/7 Professional customer support to attend to all your trading queries</Card>
+                </Col>
+              </Row>
+            </div>
+
           </Col>
         </Row>
         <Footer style={{ textAlign: 'center' }}>
