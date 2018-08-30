@@ -82,8 +82,8 @@ export class MyComp extends Component {
                 <div><h3>3</h3></div>
                 <div><h3>4</h3></div>
             </Carousel>
-            {this.props.children}
             <Table columns={columns} dataSource={data} size="middle" footer = {() => 'Footer'}/> 
+            {this.props.children}
           </Col>
         </Row>
         <Footer style={{ textAlign: 'center' }}>
