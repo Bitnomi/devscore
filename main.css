@@ -136,7 +136,6 @@ html {
   width: 100%;
   float: left;
   background-color: black;
-  z-index: 10;
 }
 
 .fixed {
