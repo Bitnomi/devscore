@@ -76,22 +76,19 @@ html {
     border-radius: 0;
     overflow: hidden;
 }
-
+.primary-nav a:hover {
+    color: white;
+    background: #396afc;
+}
         .primary-nav a {
             padding: .75em 1em;
             color: white;
             background: rgba(255, 255, 255, 0.1);
-          
             text-decoration: none;
             border-right: 1px solid #000;
             font-family: Share, Helvetica, Arial, sans-serif;
             font-weight: 400;
             font-size: 1.75em;
-        }
-
-        .primary-nav a:hover {
-            color: white;
-            background: #396afc;
         }
 
 .js .nav-collapse {
