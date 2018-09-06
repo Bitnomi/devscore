@@ -59,6 +59,10 @@ html {
         width: 100%;
         float: left;
     }
+    .tabs__item a:hover{
+      color: white;
+      background: #396afc;
+    }
 
     @media screen and (min-width: 40em) {
         .tabs__item {
