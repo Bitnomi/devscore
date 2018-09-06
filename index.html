@@ -1,174 +1,221 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-<link rel="stylesheet" href="main.css">
-	</head>
-			<nav class="nav-collapse" role="navigation">
-    <ul class="tabs primary-nav">
-        <li class="tabs__item">
-            <a href="#" class="tabs__link">Markets</a>
-        </li>
-        <li class="tabs__item">
-            <a href="#" class="tabs__link">Post an Ad</a>
-        </li>
-        <li class="tabs__item">
-            <a href="#" class="tabs__link">Manage an Ad</a>
-        </li>
-        <li class="tabs__item">
-            <a href="#" class="tabs__link">Contact</a>
-        </li>
-				<li class="tabs__item f-right">
-            <a href="#" class="tabs__link">Login</a>
-        </li>
-				<li class="tabs__item f-right">
-            <a href="#" class="tabs__link">Sign Up</a>
-        </li>
-				<li class="tabs__item f-right">
-            <a href="#" class="tabs__link">English</a>
-        </li>
-    </ul>
-</nav>
-		<body>
+<!DOCTYPE html>
+<html lang="en">
 
-		  <header>
-		    <!--Carousel Wrapper-->
-		    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://topikex.tk/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bootstrap Carousel Test</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <style type="text/css">
 
-		      <!--Indicators-->
-		      <ol class="carousel-indicators">
-		        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-		        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-		        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-		      </ol>
-		      <!--/.Indicators-->
+      html,
+      body,
+      header,
+      .carousel {
+        height: 60vh;
+      }
 
-		      <!--Slides-->
-		      <div class="carousel-inner" role="listbox">
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
 
-		        <!--First slide-->
-		        <div class="carousel-item active">
-		          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;">
+      @media (min-width: 800px) and (max-width: 850px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
 
-		            <!-- Mask & flexbox options-->
-		            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #929FBA!important;
+              }
+          }
+    </style>
+</head>
 
-		              <!-- Content -->
-		              <div class="text-center white-text mx-5 wow fadeIn">
-		                <h1 class="mb-4">
-		                  <strong>Devscore</strong>
-		                </h1>
+<body>
 
-		                <p>
-		                  <strong>Subtitle</strong>
-		                </p>
+  <header>
+    <nav class="nav-collapse" role="navigation">
+        <ul class="tabs primary-nav">
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Markets</a>
+            </li>
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Post an Ad</a>
+            </li>
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Manage an Ad</a>
+            </li>
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Contact</a>
+            </li>
+    				<li class="tabs__item f-right">
+                <a href="#" class="tabs__link">Login</a>
+            </li>
+    				<li class="tabs__item f-right">
+                <a href="#" class="tabs__link">Sign Up</a>
+            </li>
+    				<li class="tabs__item f-right">
+                <a href="#" class="tabs__link">English</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
 
-		                <p class="mb-4 d-none d-md-block">
-		                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
-		                </p>
-		              </div>
-		              <!-- Content -->
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
 
-		            </div>
-		            <!-- Mask & flexbox options-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
 
-		          </div>
-		        </div>
-		        <!--/First slide-->
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;">
 
-		        <!--Second slide-->
-		        <div class="carousel-item">
-		          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
-		            <!-- Mask & flexbox options-->
-		            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>Devscore</strong>
+                </h1>
 
-		              <!-- Content -->
-		              <div class="text-center white-text mx-5 wow fadeIn">
-		                <h1 class="mb-4">
-		                  <strong>Devscore</strong>
-		                </h1>
+                <p>
+                  <strong>Subtitle</strong>
+                </p>
 
-		                <p>
-		                  <strong>Subtitle</strong>
-		                </p>
+                <p class="mb-4 d-none d-md-block">
+                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
+                </p>
+              </div>
+              <!-- Content -->
 
-		                <p class="mb-4 d-none d-md-block">
-		                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
-		                </p>
+            </div>
+            <!-- Mask & flexbox options-->
 
-		              </div>
-		              <!-- Content -->
+          </div>
+        </div>
+        <!--/First slide-->
 
-		            </div>
-		            <!-- Mask & flexbox options-->
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
 
-		          </div>
-		        </div>
-		        <!--/Second slide-->
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
-		        <!--Third slide-->
-		        <div class="carousel-item">
-		          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>Devscore</strong>
+                </h1>
 
-		            <!-- Mask & flexbox options-->
-		            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                <p>
+                  <strong>Subtitle</strong>
+                </p>
 
-		              <!-- Content -->
-		              <div class="text-center white-text mx-5 wow fadeIn">
-		                <h1 class="mb-4">
-		                  <strong>Devscore</strong>
-		                </h1>
+                <p class="mb-4 d-none d-md-block">
+                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
+                </p>
 
-		                <p>
-		                  <strong>Subtitle</strong>
-		                </p>
+              </div>
+              <!-- Content -->
 
-		                <p class="mb-4 d-none d-md-block">
-		                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
-		                </p>
-		              </div>
-		              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
 
-		            </div>
-		            <!-- Mask & flexbox options-->
+          </div>
+        </div>
+        <!--/Second slide-->
 
-		          </div>
-		        </div>
-		        <!--/Third slide-->
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
 
-		      </div>
-		      <!--/.Slides-->
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
-		      <!--Controls-->
-		      <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-		        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		        <span class="sr-only">Previous</span>
-		      </a>
-		      <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-		        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		        <span class="sr-only">Next</span>
-		      </a>
-		      <!--/.Controls-->
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>Devscore</strong>
+                </h1>
 
-		    </div>
-		    <!--/.Carousel Wrapper-->
+                <p>
+                  <strong>Subtitle</strong>
+                </p>
 
-		  </header>
+                <p class="mb-4 d-none d-md-block">
+                  <strong>Some short paragraph filler that I just put here because what else should I put here?</strong>
+                </p>
+              </div>
+              <!-- Content -->
 
-		    <!-- SCRIPTS -->
-		    <!-- JQuery -->
-		    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-		    <!-- Bootstrap tooltips -->
-		    <script type="text/javascript" src="js/popper.min.js"></script>
-		    <!-- Bootstrap core JavaScript -->
-		    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-		    <!-- MDB core JavaScript -->
-		    <script type="text/javascript" src="js/mdb.min.js"></script>
-				<script type="text/javascript" src="navbar.js"></script>
-		      <!-- Initializations -->
-		  <script type="text/javascript">
-		    // Animations initialization
-		    new WOW().init();
-		  </script>
-		</body>
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Third slide-->
+
+      </div>
+      <!--/.Slides-->
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+  </header>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
 </html>
