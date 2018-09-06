@@ -2,7 +2,6 @@
 .f-right {
   float: right;
 }
-
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -11,28 +10,49 @@
   margin: 0;
 }
 
+html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #929FBA!important;
+            }
+        }
+
 html {
     font: 0.75em/1.5 sans-serif;
     background: #000;
-    margin-top: 50px;
 }
 
-/**
- * Tabs object.
- *
- * 1. Tables (kinda) for layout!
- * 2. This is the magic bit; make all children occupy equal width.
- * 3. Required to make the tabs fill their container.
- * 4. Make each tab pack up horizontally.
- * 5. Ensure the hit area covers the whole tab.
- */
 .tabs {
     margin:  0;
     padding: 0;
     list-style: none;
-    display: table; /* [1] */
-    table-layout: fixed; /* [2] */
-    width: 100%; /* [3] */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
 }
 
     .tabs__item {
@@ -42,26 +62,19 @@ html {
 
     @media screen and (min-width: 40em) {
         .tabs__item {
-          display: table-cell; /* [4] */
+          display: table-cell;
           float: none;
           width: auto;
         }
     }
 
         .tabs__link {
-            display: block; /* [5] */
+            display: block;
         }
-
-
-/**
- * Primary nav. Extends `.tabs`.
- *
- * 1. Stop tabs’ corners leaking out beyond our 4px round.
- */
 .primary-nav {
     text-align: center;
     border-radius: 0;
-    overflow: hidden; /* [1] */
+    overflow: hidden;
 }
 
         .primary-nav a {
@@ -77,11 +90,9 @@ html {
         }
 
         .primary-nav a:hover {
-            color: black;
+            color: white;
             background: #396afc;
         }
-
-/* Responsive-nav.js */
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -92,7 +103,7 @@ html {
   zoom: 1;
 }
 
-.nav-collapse.opened {
+.nav-collapsei.opened {
   max-height: 9999px;
 }
 
@@ -154,7 +165,7 @@ html {
 }
 
 .nav-toggle:before {
-  color: #f8d800; /* Edit this to change the icon color */
+  color: #f8d800;*/
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
