@@ -1,0 +1,63 @@
+.homeContainer{
+
+   min-height: 100%;
+}
+
+h1, legend{
+   text-align: center;
+}
+
+ul, p{
+   padding: 20px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.motto{
+   text-align: center;
+   font-size: 2em;
+}
+
+.aboutus {
+   padding-left: 20%;
+   padding-right: 20%;
+   /* background-color: black; */
+}
+
+.footer {
+   text-align: center;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background: transparent;
+}
+
+ul#horizontal-list {
+   min-width: 70%;
+   list-style: none;
+   padding-top: 6px;
+}
+
+ul#horizontal-list li{
+   display: inline;
+   padding-inline-end: 5%;
+}
+
+ul.horizontal-social {
+   list-style: none;
+   padding-top: 0px;
+}
+
+ul.horizontal-social li{
+   display: inline;
+   padding-inline-end: 2%;
+}
+
+hr{
+   width: 60%;
+}
+
+ul.horizontal-social>li.email {
+   padding-left: 40%;
+}

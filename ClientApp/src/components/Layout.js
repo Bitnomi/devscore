@@ -12,10 +12,8 @@ export class Layout extends Component {
     return (
       <Grid fluid>
         <Row>
-          <Col sm={3}>
-            <NavMenu/>
-          </Col>
-          <Col sm={6}>
+          <NavMenu/>
+          <Col xl={9}>
             <Carousel>
                 <div><img src="B:\Shall\work\devscore\ClientApp\public\2938.jpg" alt=""/></div>
                 <div><h3>2</h3></div>
