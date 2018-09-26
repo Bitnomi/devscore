@@ -3,6 +3,7 @@ import './home.css'
 // import { Modal, Button } from 'antd';
 import { Icon } from 'antd';
 import MyTable from './table';
+import MyFooter from './footer';
 
 
 class Home extends Component {
@@ -62,24 +63,13 @@ xxx continues to provide the best experience with our platform as an easy , fast
         </div>
       </div>
       
+
+
+
+
       <div className="footer">
         <div className="footer-lol">Devscore Coin</div>
-        <hr></hr>
-        <ul id="horizontal-list">
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Rate started</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Business Cooperation</a></li>
-        </ul>
-        <hr/>
-        <ul className="horizontal-social">
-          <li><Icon type="facebook" /></li>
-          <li><Icon type="twitter" /></li>
-          <li><Icon type="medium" /></li>
-          <li><Icon type="android" /></li>
-          <li><Icon type="apple" /></li>
-          <li className="email">devscore@devscore.team</li>
-        </ul>
+        <MyFooter />
       </div>
       </div>
     );
