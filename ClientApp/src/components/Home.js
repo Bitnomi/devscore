@@ -55,11 +55,16 @@ class Home extends Component {
           </li>
         </ul>        
 
-        <div className="aboutus">
-          <small>
-          Founded in 2018 .xxx is a world Digital Asset exchange provider. Our Core Team originates with vast experience in finance and internet security companies as well and include early adopters of Cryptocurrency . With the emergence of a new digital world , 
-xxx continues to provide the best experience with our platform as an easy , fast and open way for digital assets exchange .
-          </small>
+        <div className="aboutus about-box">
+          <div className="title-line ff-thin">
+          About Us
+          </div>
+
+          <div className="desc-line ff-ligjt">
+          <span>
+            Founded in 2018 DevScore Coin is a world Digital Asset exchange provider. Our Core Team originates with vast experience in finance and internet security companies as well and include early adopters of Cryptocurrency . With the emergence of a new digital world , xxx continues to provide the best experience with our platform as an easy , fast and open way for digital assets exchange .
+          </span>
+          </div>
         </div>
       </div>
       
