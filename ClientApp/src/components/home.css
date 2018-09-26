@@ -11,15 +11,41 @@ h1, legend{
    text-align: center;
 }
 
-ul, p{
+/* ul, p{
    padding: 20px;
    padding-left: 10%;
    padding-right: 10%;
-}
+} */
 
 .motto{
-   text-align: center;
+   /* text-align: center;
+   min-width: 70%;
    font-size: 2em;
+   list-style: none; */
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.motto li{
+   /* display: inline;
+   padding-inline-end: 15%;
+   text-align: center; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   width: 336px;
+   overflow: hidden;
+}
+
+.font-gray{
+   font-size: 18px;
+   color: #999;
+}
+
+.font24{
+   font-size: 24px;
 }
 
 .aboutus {
